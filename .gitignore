@@ -1,0 +1,22 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Geospatial local data caches & temporary rasters
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.zip
+*.SAFE/
+.DS_Store
+
+# Preserve outputs directory structure
+!outputs/.gitkeep
